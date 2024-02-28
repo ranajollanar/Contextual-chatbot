@@ -1,0 +1,147 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+        "responses": ["Hello! I'm here to assist you with your mental well-being.", "Hi there! How can I support you today?", "Good to see you! How are you feeling?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Goodbye! Take care of yourself.", "See you later! Remember, I'm here whenever you need support.", "Take care!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["You're welcome! If you have more questions, feel free to ask.", "I'm glad I could help! If you need anything else, just let me know.", "Anytime! Take care of yourself."]
+      },
+      {
+        "tag": "mood",
+        "patterns": ["How are you feeling?", "What's your mood?", "Tell me about your emotions"],
+        "responses": ["I'm just a computer program, but I'm here to help you with your emotions. How are you feeling right now?", "I don't have feelings, but I'm here to support you. How's your mood today?"]
+      },
+      {
+        "tag": "user_emotions",
+        "patterns": ["I feel happy", "I'm sad", "Feeling stressed"],
+        "responses": ["I'm here to chat about it. What's making you feel this way?", "Emotions are complex. Would you like to talk more about why you feel this way?", "Thank you for sharing. Let's discuss how I can support you."]
+      },
+      {
+        "tag": "help",
+        "patterns": ["Help me", "I need assistance", "Can you help?", "I'm not sure what to do"],
+        "responses": ["Of course! I'm here to help. What do you need assistance with?", "I'm here to assist you. Please let me know what you're looking for help with.", "No problem! I'm ready to help. What can I do for you?"],
+        "context_set": ""
+      },
+      {
+        "tag": "loneliness",
+        "patterns": ["I need help", "I feel lonely", "Feeling alone"],
+        "responses": ["I'm here for you. Loneliness is something many of us experience. Let's talk about it. What's on your mind?", "Feeling lonely is tough. I'm here to chat and keep you company. What would you like to discuss?", "You're not alone in feeling lonely. I'm here to offer support. How can I assist you right now?"],
+        "context_set": "loneliness"
+      },
+      {
+        "tag": "stress",
+        "patterns": ["I'm feeling stressed", "How to cope with stress?", "Ways to manage stress"],
+        "responses": ["I'm sorry to hear that you're feeling stressed. Taking deep breaths, going for a walk, or talking to someone can help. What works best for you?", "Stress is common, but finding healthy coping mechanisms like mindfulness or exercise can make a difference."]
+      },
+      {
+        "tag": "selfcare",
+        "patterns": ["Tell me about self-care", "How can I practice self-care?", "Self-care tips"],
+        "responses": ["Self-care is essential for mental well-being. It could be as simple as taking a break, practicing mindfulness, or doing activities you enjoy. What self-care activities do you like?", "Self-care involves activities that make you feel good and recharged. What activities bring you a sense of peace and joy?"]
+      },
+      {
+        "tag": "therapy",
+        "patterns": ["Do I need therapy?", "How does therapy work?", "Tell me about counseling"],
+        "responses": ["Therapy can be beneficial for many. If you're struggling, talking to a professional can provide support and guidance. Have you considered seeking therapy?", "Therapy is a safe space to explore your thoughts and feelings. It's okay to ask for help. Would you like information on finding a therapist?"]
+      },
+      {
+        "tag": "mindfulness",
+        "patterns": ["What is mindfulness?", "How to practice mindfulness?", "Mindfulness techniques"],
+        "responses": ["Mindfulness involves being present in the moment. Practices like meditation, deep breathing, or mindful walking can help. Have you tried any mindfulness techniques before?", "Mindfulness can reduce stress. Simple practices like focusing on your breath or senses can be powerful. Would you like a guided mindfulness exercise?"]
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["I lack motivation", "How to stay motivated?", "Motivational tips"],
+        "responses": ["Lack of motivation is common. Break tasks into smaller steps, set achievable goals, and celebrate small victories. What goals are you working towards?", "Finding motivation can be challenging. What activities or goals usually inspire you? We can brainstorm ways to reignite your motivation."]
+      },
+      {
+        "tag": "resources",
+        "patterns": ["Tell me about mental health resources", "Where can I find mental health support?", "Resources for mental well-being"],
+        "responses": ["There are various resources available, including hotlines, online communities, and mental health apps. Would you like information on specific resources or support groups?", "Finding the right resources is crucial. Whether it's online forums, apps, or local support groups, there are many options. What type of support are you looking for?"]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["Tell me a joke", "I need a laugh", "Jokes"],
+        "responses": ["Sure, here's a joke for you: [Insert Joke]. I hope it brings a smile to your face! Anything else you'd like?", "Laughter is a great mood booster! How about this one: [Insert Joke]. Hope it brightens your day!"]
+      },
+      {
+        "tag": "music",
+        "patterns": ["Recommend music", "Favorite songs", "Music suggestion"],
+        "responses": ["Music is a fantastic way to uplift your mood! What genre or mood are you in, and I can recommend some songs or artists for you?", "I'd love to help you discover some great music! What kind of music are you into or looking for right now?"]
+      },
+      {
+        "tag": "meditation",
+        "patterns": ["Meditation", "Mindfulness practice", "Guided meditation"],
+        "responses": ["Meditation is a wonderful practice for calming the mind. Do you have a specific meditation style or duration you prefer, or would you like a recommendation?", "Mindfulness can be transformative. Would you like a guided meditation suggestion, or do you have any questions about your meditation practice?"]
+      },
+      {
+        "tag": "feelings_sad",
+        "patterns": ["I feel sad", "Feeling down", "I'm not doing well"],
+        "responses": ["I'm here for you. It's okay to feel this way. Would you like to talk about what's on your mind?", "I'm sorry to hear that. Expressing your feelings can help, would you like to share more?"]
+      },
+      {
+        "tag": "feelings_happy",
+        "patterns": ["I feel happy", "Feeling great", "I'm in a good mood"],
+        "responses": ["That's wonderful to hear! What's making you happy? Anything specific you'd like to talk about or share?", "I'm so glad you're feeling happy! Is there anything you'd like to discuss or celebrate?"]
+      },
+      {
+        "tag": "eating_well",
+        "patterns": ["I'm eating well", "Healthy eating", "Nutrition"],
+        "responses": ["That's fantastic! Taking care of your nutrition is crucial for overall well-being. Do you have any specific dietary goals or questions?", "Great job on prioritizing your health! Anything specific you'd like to share about your eating habits or any questions you have?"]
+      },
+      {
+        "tag": "yoga",
+        "patterns": ["Doing yoga", "Yoga practice", "Yoga poses"],
+        "responses": ["Yoga is a wonderful practice for both physical and mental well-being. What type of yoga are you practicing, and do you have any specific questions or challenges?", "Fantastic! Yoga can be so beneficial. Is there a particular aspect of your practice you'd like to discuss or any questions you have?"]
+      },
+      {
+        "tag": "stress_management",
+        "patterns": ["I'm feeling stressed", "Stress management techniques", "How to deal with stress"],
+        "responses": ["I'm here to help. Let's explore some stress management techniques together. Have you tried deep breathing, mindfulness, or any specific methods before?", "It's common to feel stressed. Let's work on some stress management strategies. What usually helps you relax when you're stressed?"]
+      },
+      {
+        "tag": "self_care",
+        "patterns": ["Tell me about self-care", "Self-care tips", "How to practice self-care"],
+        "responses": ["Self-care is crucial for mental well-being. What activities do you enjoy for self-care, or would you like some suggestions based on your preferences?", "Taking care of yourself is important. What self-care practices resonate with you, or would you like some personalized recommendations?"]
+      },
+      {
+        "tag": "sleep",
+        "patterns": ["How can I improve my sleep?", "Insomnia help", "Sleep tips"],
+        "responses": ["Quality sleep is essential for mental health. Let's explore some sleep-improving techniques. Have you tried creating a bedtime routine or adjusting your sleep environment?", "Sleep is crucial for overall well-being. What are your current sleep habits, or would you like tips on improving your sleep quality?"]
+      },
+      {
+        "tag": "goal_setting",
+        "patterns": ["Setting personal goals", "Achieving goals", "Goal planning"],
+        "responses": ["Setting and achieving goals can contribute to a sense of purpose. What goals are you currently working on, or would you like assistance in setting and planning achievable goals?", "Goals are important for personal growth. Share your goals, and let's discuss actionable steps to help you achieve them."]
+      },
+      {
+        "tag": "mindset",
+        "patterns": ["Positive mindset", "Cultivating optimism", "Mindset shift"],
+        "responses": ["Maintaining a positive mindset can be transformative. What strategies do you currently use, or would you like suggestions on cultivating a more positive outlook?", "Your mindset plays a significant role in well-being. Let's explore ways to shift your mindset towards positivity. What usually helps you stay optimistic?"]
+      },
+      {
+        "tag": "body_mind_connection",
+        "patterns": ["Mind-body connection", "Holistic well-being", "Body and mind harmony"],
+        "responses": ["The connection between the body and mind is vital. How do you currently nurture this connection, or would you like guidance on practices that promote holistic well-being?", "Achieving harmony between the body and mind is essential for overall health. Let's discuss ways to enhance this connection."]
+      },
+      {
+        "tag": "fallback",
+        "patterns": ["Sorry, I don't understand", "Can you repeat that?", "I'm confused"],
+        "responses": ["I'm sorry, I didn't catch that. Can you please rephrase or ask something else?", "I'm still learning. Could you try asking in a different way?"]
+      },
+      {
+        "tag": "user_education",
+        "patterns": ["What can you help with?", "How does this chatbot work?", "Are you a human?"],
+        "responses": ["I can assist with information on mental health and wellness. Keep in mind that I'm a chatbot, not a human therapist. If you have serious concerns, please consult a professional."]
+      }
+    ]
+  }
+  
